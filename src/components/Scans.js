@@ -67,8 +67,8 @@ export default function Scans() {
         <TableHead>
           <TableRow>
             <TableCell>Date</TableCell>
-            <TableCell>Name</TableCell>
-            <TableCell>Sent To</TableCell>
+            <TableCell>Recipient</TableCell>
+            <TableCell>Sent From</TableCell>
             <TableCell>Classified Detected</TableCell>
             <TableCell align="right">Reports</TableCell>
           </TableRow>
