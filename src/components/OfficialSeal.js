@@ -3,8 +3,9 @@ import React from "react";
 const OfficialSeal = () => {
   return (
     <svg
+      style={{ outline: "none" }}
       aria-hidden="true"
-      tabindex="-1"
+      tabIndex="-1"
       id="stars-seal"
       width="297"
       height="298"
