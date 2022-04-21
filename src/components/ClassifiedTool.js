@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import Button from "@mui/material/Button";
-import TextField from "@mui/material/TextField";
-import Checkbox from "@mui/material/Checkbox";
-import Autocomplete, { createFilterOptions } from "@mui/material/Autocomplete";
-import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
-import CheckBoxIcon from "@mui/icons-material/CheckBox";
 import Title from "./Title";
+import Autocomplete, { createFilterOptions } from "@mui/material/Autocomplete";
+import Button from "@mui/material/Button";
+import Checkbox from "@mui/material/Checkbox";
+import CheckBoxIcon from "@mui/icons-material/CheckBox";
+import CheckBoxOutlineBlankIcon from "@mui/icons-material/CheckBoxOutlineBlank";
+import Link from "@mui/material/Link";
+import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 
 const icon = <CheckBoxOutlineBlankIcon fontSize="small" />;
@@ -24,7 +25,7 @@ const ClassifiedTool = () => {
     setResult(isClassified(emailText, selectedOptions));
 
   return (
-    <React.Fragment>
+    <div style={{ minHeight: "250px" }}>
       <Title>New Scan</Title>
       <TextField
         sx={{ m: 2, width: "25ch" }}
@@ -93,18 +94,30 @@ const ClassifiedTool = () => {
       />
       {result[1] && (
         <div style={{ marginTop: "10px" }}>
-          <Typography variant="subtitle1" color="primary" gutterBottom>
+          <Typography variant="subtitle2" color="primary" gutterBottom>
             Checked Email Text: {result[1]}
           </Typography>
 
-          <Typography variant="subtitle1" color="primary" gutterBottom>
+          <Typography variant="subtitle2" color="primary" gutterBottom>
             Classified Words: {result[0] ? "Yes" : "No"}
           </Typography>
+          <Link
+            color="primary"
+            href="#"
+            onClick={preventDefault}
+            sx={{ mt: 3 }}
+          >
+            Log Report
+          </Link>
         </div>
       )}
-    </React.Fragment>
+    </div>
   );
 };
+
+function preventDefault(event) {
+  event.preventDefault();
+}
 
 export default ClassifiedTool;
 
@@ -143,18 +156,18 @@ const classifiedWordsList = [
   "Abu Omar case",
   "Acoustic Kitty",
   "Air Bridge Denial Program",
-  "MS Alfhem",
+  "Alfhem",
   "American Committee on United Europe",
-  "SS Aquila (1940)",
-  "SS Armonia (1924)",
+  "Aquila",
+  "SS Armonia",
   "Project ARTICHOKE",
   "Assassination attempts on Fidel Castro",
-  "Battalion 3-16 (Honduras)",
+  "Battalion 3-16",
   "Bay of Pigs Invasion",
-  "William H. Beale",
-  "Darrell Blocker",
-  "Canadian Caper",
-  "Operation CHAOS",
+  "Beale",
+  "Blocker",
+  "Caper",
+  "CHAOS",
   "1973 Chilean coup d'état",
   "Church Committee",
   "CIA black sites",
