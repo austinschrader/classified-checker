@@ -6,6 +6,8 @@ This website is a single page application built with [React](https://reactjs.org
 
 Simply navigate to the AWS hosted website found at: https://master.d21tq74n970109.amplifyapp.com/ to view it live.
 
+![Classified Checker Home Page](./Classified-Checker.png?raw=true "Classified Checker")
+
 ## Features
 
 - The website is designed to be simple and easy to navigate by the user.
