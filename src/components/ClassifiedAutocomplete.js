@@ -15,7 +15,7 @@ const ClassifiedAutocomplete = () => {
     <Autocomplete
       multiple
       freeSolo
-      style={{ width: 900, marginLeft: "15px" }}
+      style={{ width: "90%", marginLeft: "15px" }}
       size="small"
       id="classified-words-list"
       options={classifiedWordsList}

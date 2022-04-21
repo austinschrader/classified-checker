@@ -22,7 +22,7 @@ const ClassifiedTool = () => {
           ),
         }}
         label="Email to Scan"
-        style={{ width: 900 }}
+        style={{ width: "90%" }}
       />
       <ClassifiedAutocomplete />
     </React.Fragment>
