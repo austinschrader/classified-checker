@@ -1,10 +1,10 @@
 # White House Classified Check React Website
 
-This website is a single page application built with [React](https://reactjs.org/). The website is designed to be as simple as possible and to be easily understood by the user. The website is designed to be responsive and user friendly to all devices. The website is designed to be easily extensible and easily maintainable.
+This website is a single page application built with [React](https://reactjs.org/). The intention of the web application is to allow White House security easily screen incoming emails for potentially classified words. The website is designed to be as simple as possible and to be easily understood by the user. The website is designed to be responsive and user friendly to all devices. The website is designed to be easily extensible and easily maintainable.
 
 ## Live Website
 
-Simply navigate to https://master.d21tq74n970109.amplifyapp.com/ to see the website hosted live.
+Simply navigate to the AWS hosted website found at: https://master.d21tq74n970109.amplifyapp.com/ to view it live.
 
 ## Features
 
@@ -34,6 +34,13 @@ Simply navigate to https://master.d21tq74n970109.amplifyapp.com/ to see the webs
 2. Right click the downloaded file and "Unzip"
 3. Double click on the file that was just unzipped
 4. Congratulations, you downloaded the repository.
+
+## Next Steps to Improve This Project
+
+1. Add an Express.js server and transfer server logic to that server
+2. Add a database and add the list of classified words to that database
+3. Optimize the isClassified() function if the server receives a high volume of emails
+4. Add tests using the Jest testing framework
 
 ### Frontend Technologies Used
 
