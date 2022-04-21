@@ -12,62 +12,53 @@ const Footer = () => {
         listStyle: "none",
       }}
     >
-      <div className="footer-column">
-        <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-          <a href="/#">
-            <li>Home</li>
-          </a>
-          <a href="/#">
-            <li>The Administration</li>
-          </a>
-          <a href="/#">
-            <li>Executive Offices</li>
-          </a>
-          <a href="/#">
-            <li>Priorities</li>
-          </a>
-        </ul>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+          flexDirection: "column",
+        }}
+      >
+        <a href="/#">Home</a>
+        <a href="/#">The Administration</a>
+        <a href="/#">Executive Offices</a>
+        <a href="/#">Priorities</a>
       </div>
-      <div className="footer-column">
-        <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-          <a href="/#">
-            <li>Briefing Room</li>
-          </a>
-          <a href="/#">
-            <li>The White House</li>
-          </a>
-          <a href="/#">
-            <li>Get Involved</li>
-          </a>
-          <a href="/#">
-            <li>Español</li>
-          </a>
-        </ul>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+          flexDirection: "column",
+        }}
+      >
+        <a href="/#">Briefing Room</a>
+        <a href="/#">The White House</a>
+        <a href="/#">Get Involved</a>
+        <a href="/#">Español</a>
       </div>
-      <div className="footer-column">
-        <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-          <a href="/#">
-            <li>Contact Us</li>
-          </a>
-          <a href="/#">
-            <li>Privacy Policy</li>
-          </a>
-          <a href="/#">
-            <li>Copyright Policy</li>
-          </a>
-          <a href="/#">
-            <li>Accessibility Statements</li>
-          </a>
-          <a href="/#">
-            <li>Disclosures</li>
-          </a>
-        </ul>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+          flexDirection: "column",
+        }}
+      >
+        <a href="/#">Contact Us</a>
+        <a href="/#">Privacy Policy</a>
+        <a href="/#">Copyright Policy</a>
+        <a href="/#">Accessibility Statements</a>
+        <a href="/#">Disclosures</a>
       </div>
-
-      <div className="footer-column">
-        <p style={{ fontWeight: "bold" }}>The White House</p>
-        <p>1600 Pennsylvania Ave NW</p>
-        <p>Washington, DC 20500</p>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+          flexDirection: "column",
+        }}
+      >
+        <span style={{ fontWeight: "bold" }}>The White House</span>
+        <span>1600 Pennsylvania Ave NW</span>
+        <span>Washington, DC 20500</span>
       </div>
     </div>
   );
