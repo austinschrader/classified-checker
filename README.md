@@ -2,9 +2,9 @@
 
 This website is a single page application built with [React](https://reactjs.org/) & [Material UI/MUI Templates](https://mui.com/material-ui/getting-started/templates/). The intention of the web application is to allow White House security easily screen incoming emails for potentially classified words. The website is designed to be as simple as possible and to be easily understood by the user. The website is designed to be responsive and user friendly to all devices. The website is designed to be easily extensible and easily maintainable.
 
-## Live Website
+## Live Website - View it Live
 
-Simply navigate to the AWS hosted website found at: https://master.d21tq74n970109.amplifyapp.com/ to view it live.
+https://master.d21tq74n970109.amplifyapp.com/ 
 
 ## The App
 
