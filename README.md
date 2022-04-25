@@ -1,6 +1,8 @@
 # White House Classified Check React Website
 
-This website is a single page application built with [React](https://reactjs.org/) & [Material UI/MUI Templates](https://mui.com/material-ui/getting-started/templates/). The intention of the web application is to allow White House security easily screen incoming emails for potentially classified words. The website is designed to be as simple as possible and to be easily understood by the user. The website is designed to be responsive and user friendly to all devices. The website is designed to be easily extensible and easily maintainable.
+This website is a single page application built with [React](https://reactjs.org/) & [Material UI/MUI Templates](https://mui.com/material-ui/getting-started/templates/). The intention of the web application is a ficticious project to allow the White House's security to easily screen incoming emails for potentially classified words. 
+
+The website is designed to be as simple as possible and to be easily understood by the user. The website is designed to be responsive and user friendly to all devices. Lastly, the website is designed to be easily extensible and easily maintainable.
 
 ## Live Website - View it Live
 
