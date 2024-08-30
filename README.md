@@ -60,4 +60,4 @@ At this time, there are no known bugs. If you see spot a bug feel free to make a
 
 ### About
 
-- The website was built by Austin Schrader and Nathan Schrader
+- The website was built by Austin Schrader
